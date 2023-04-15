@@ -32,3 +32,4 @@ F:\repos\c#\net_core\EdgeJobs_Test\EdgeJobs_Test\obj\Debug\net6.0\EdgeJobs_Test.
 F:\repos\c#\net_core\EdgeJobs_Test\EdgeJobs_Test\obj\Debug\net6.0\ref\EdgeJobs_Test.dll
 F:\repos\c#\net_core\EdgeJobs_Test\EdgeJobs_Test\bin\Debug\net6.0\EdgeJobs_Test.xml
 F:\repos\c#\net_core\EdgeJobs_Test\EdgeJobs_Test\obj\Debug\net6.0\EdgeJobs_Test.xml
+F:\repos\c#\net_core\EdgeJobs_Test\EdgeJobs_Test\bin\Debug\net6.0\Newtonsoft.Json.dll

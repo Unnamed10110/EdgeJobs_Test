@@ -1,6 +1,7 @@
 ﻿using EdgeJobs_Test.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Net.Http;
 using System.Reflection.Metadata.Ecma335;
 using System.Text.Json.Nodes;
@@ -26,7 +27,7 @@ namespace EdgeJobs_Test.Controllers
         /// Obtener todos los posts
         /// </summary>
         [HttpGet("allPosts",Name = "getallposts")]
-        public async Task<ActionResult<String>> GetAll()
+        public async Task<ActionResult<string/*customtestmodel*/>> GetAll()
         {
             var client = httpClientFactory.CreateClient();
             var request = new HttpRequestMessage(HttpMethod.Get, "https://jsonplaceholder.typicode.com/posts");
@@ -35,6 +36,8 @@ namespace EdgeJobs_Test.Controllers
             var resp = await client.SendAsync(request);
             var response_body = await resp.Content.ReadAsStringAsync().ConfigureAwait(false);
 
+            //// mantener prop como jsonNode para retornar el formato json limpio
+            //return new customtestmodel { bodyjson = JsonObject.Parse(response_body)};
             if (resp.IsSuccessStatusCode)
             {
                 return Ok(JsonObject.Parse(response_body));

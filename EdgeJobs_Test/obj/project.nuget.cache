@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JQ9Y4WXWl+PmKmRHNQIgThvfWbu1X9GMKQp6eS4KaMyw05TP2EbAXnYwX06TQb9Q3P6IBSsvbyW5wRiJzUt39w==",
+  "dgSpecHash": "7X3b6Y+e9KUdYiDcfhRXuBdAqRvLyqdEClarRX6SICo57gZykxvv8prOqWyI3XllEjZEEcAVPYClWSUnl7SGiw==",
   "success": true,
   "projectFilePath": "F:\\repos\\c#\\net_core\\EdgeJobs_Test\\EdgeJobs_Test\\EdgeJobs_Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\troja\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\troja\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\troja\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\troja\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\troja\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\troja\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
